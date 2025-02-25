@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đa Phần</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="star.css">
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+
+    <audio id="background-music" src="./tienhaylui.mp3"></audio>
+    
+    <!-- Nút bật nhạc -->
+    <div id="music-container">
+        <button id="toggleMusic" class="btn liquid scale-in-button" onclick="startDisplay()"><span>Mở quà</span></button>
+    </div>
+
+    <!-- Nội dung trang (ẩn ban đầu) -->
+    <div id="content">
+        <div id="page1" class="page">
+            <div class="content1" id="content1">
+                <h1 class="title" id="typing-effect">HI VỌNG LINH THÍCH
+                  <div class="aurora">
+                    <div class="aurora__item"></div>
+                    <div class="aurora__item"></div>
+                    <div class="aurora__item"></div>
+                    <div class="aurora__item"></div>
+                  </div>
+                </h1>
+                <button class="btn liquid hidden" id="nextButton" onclick="showPage(2)">Tiếp tục</button>
+            </div>
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div class="stars">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+              </div>
+        </div>
+
+        <div id="page2" class="page hidden">
+            <h2>Trang 2</h2>
+            <p>Đây là nội dung trang 2.</p>
+            <button onclick="showPage(3)">Tiếp tục</button>
+        </div>
+
+        <div id="page3" class="page hidden">
+            <h2>Trang 3</h2>
+            <p>Đây là nội dung trang 3.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
